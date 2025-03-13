@@ -36,16 +36,16 @@
 
 ## Screenshots During Analysis
 Sal by Role Type (see screenshot)
-  ![Image](https://github.com/user-attachments/assets/b5aed22d-4cf9-41b7-b204-0ecc09ce64cf)
+![Image](https://github.com/user-attachments/assets/b5aed22d-4cf9-41b7-b204-0ecc09ce64cf)
 
 Sal by Size (see screenshot)
-  ![Image](https://github.com/user-attachments/assets/79614bb9-51ab-4d80-a291-36d720d9721b)
+![Image](https://github.com/user-attachments/assets/79614bb9-51ab-4d80-a291-36d720d9721b)
   
   Sal by State (see screenshot)
-  ![Image](https://github.com/user-attachments/assets/8bd1776a-e0a6-44e5-8e51-5874ded84f42)
+![Image](https://github.com/user-attachments/assets/8bd1776a-e0a6-44e5-8e51-5874ded84f42)
 
- Sector by size (see screenshot)
-  ![Image](https://github.com/user-attachments/assets/8d78a9a1-0a95-4314-a164-1192c48e1866)
+ Sector by size (see screenshot) 
+![Image](https://github.com/user-attachments/assets/8d78a9a1-0a95-4314-a164-1192c48e1866)
 
 Sal by Sector (see screenshot)
 ![Image](https://github.com/user-attachments/assets/4a33f1c5-ec30-4703-b8ee-082c46e3962e)
