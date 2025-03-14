@@ -51,8 +51,10 @@
 - ![Image](https://github.com/user-attachments/assets/4a33f1c5-ec30-4703-b8ee-082c46e3962e)
 
 ### Dashboard (see screenshot)
-- ![Image](https://github.com/user-attachments/assets/7a4d0c6f-7299-4b42-8b68-7c1fa8e0a63f)
-- ![Image](https://github.com/user-attachments/assets/4b99b2f4-130c-401d-acc7-49f4e8289ca9)
+- ![Image](https://github.com/user-attachments/assets/7fb9e5e7-e85d-4ddd-a6a7-671713c1563b)
+
+- ![Image](https://github.com/user-attachments/assets/6c372066-1763-4309-ad5a-0bd488fa1b1a)
+
 
 ### Map (see screenshot)
 - ![Image](https://github.com/user-attachments/assets/e3764115-01ae-48a7-af5c-12146e9e8680)
