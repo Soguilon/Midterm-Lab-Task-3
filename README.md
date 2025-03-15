@@ -36,27 +36,27 @@
 
 ## Screenshots During Analysis
 - Sal by Role Type (see screenshot)
-- ![Image](https://github.com/user-attachments/assets/b5aed22d-4cf9-41b7-b204-0ecc09ce64cf)
+- ![Image](https://github.com/user-attachments/assets/02d36474-997e-4a81-aae3-857bea1fcf9e)
 
 - Sal by Size (see screenshot)
-- ![Image](https://github.com/user-attachments/assets/79614bb9-51ab-4d80-a291-36d720d9721b)
+- ![Image](https://github.com/user-attachments/assets/d06f90c2-8657-43dd-a04d-39a07da83caf)
   
 - Sal by State (see screenshot)
-- ![Image](https://github.com/user-attachments/assets/8bd1776a-e0a6-44e5-8e51-5874ded84f42)
-
+- ![Image](https://github.com/user-attachments/assets/b1e88892-8b68-4814-8371-345195204888)
+  
 - Sector by size (see screenshot) 
-- ![Image](https://github.com/user-attachments/assets/8d78a9a1-0a95-4314-a164-1192c48e1866)
+- ![Image](https://github.com/user-attachments/assets/6f4ddd1b-a8b1-4347-ab1e-9354da8ddc4e)
 
 - Sal by Sector (see screenshot)
-- ![Image](https://github.com/user-attachments/assets/4a33f1c5-ec30-4703-b8ee-082c46e3962e)
-
+- ![Image](https://github.com/user-attachments/assets/f77383e5-e27d-453b-88cb-28cc49eda8cf)
+  
 ### Dashboard (see screenshot)
-- ![Image](https://github.com/user-attachments/assets/7fb9e5e7-e85d-4ddd-a6a7-671713c1563b)
+- ![Image](https://github.com/user-attachments/assets/16fe2a8e-4e0d-4810-9ac7-87d8864afa06)
 
-- ![Image](https://github.com/user-attachments/assets/6c372066-1763-4309-ad5a-0bd488fa1b1a)
+- ![Image](https://github.com/user-attachments/assets/055f1431-09b8-4cf5-938d-8f16d87af8c7)
 
 
 ### Map (see screenshot)
-- ![Image](https://github.com/user-attachments/assets/e3764115-01ae-48a7-af5c-12146e9e8680)
+- ![Image](https://github.com/user-attachments/assets/a5dec839-b68a-4e7b-b4c2-3a2ce1a5de88)
 
 
