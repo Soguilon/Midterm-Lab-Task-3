@@ -56,7 +56,9 @@
 - ![Image](https://github.com/user-attachments/assets/055f1431-09b8-4cf5-938d-8f16d87af8c7)
 
 ### Search Bar
-https://github.com/user-attachments/assets/fad91717-e543-4c00-a062-d9917168a920
+- ![Image](https://github.com/user-attachments/assets/5f4ebd16-ebfd-49d2-a342-e67ccd406e06)
+- ![Image](https://github.com/user-attachments/assets/c8e6d12a-4c2c-48d3-ae41-ad6ee3dcb4cf)
+- ![Image](https://github.com/user-attachments/assets/b75eff63-63a7-4cc7-b3a1-5ab2132c2801)
 
 ### Map (see screenshot)
 - ![Image](https://github.com/user-attachments/assets/a5dec839-b68a-4e7b-b4c2-3a2ce1a5de88)
