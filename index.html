@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Midterm Lab Task 3 - Data Science Salary & Job Trends Dashboard</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(120deg, #000 30%, #020f1f 70%);
+      color: #00bfff;
+      overflow-x: hidden;
+      animation: bgShift 15s ease-in-out infinite alternate;
+      transition: background 2s ease-in-out;
+    }
+
+    @keyframes bgShift {
+      0% { background-position: left top; }
+      100% { background-position: right bottom; }
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      text-align: center;
+      font-size: 2rem;
+      color: #00bfff;
+      text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff;
+      animation: neonGlow 2s infinite alternate;
+      box-shadow: 0 0 15px #00bfff;
+    }
+
+    section {
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: auto;
+      border-radius: 10px;
+      background: rgba(0, 0, 0, 0.6);
+      transition: transform 0.3s ease-in-out;
+      animation: fadeInUp 1.5s ease-in-out;
+    }
+
+    section:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #00bfff;
+    }
+
+    h2 {
+      color: #00bfff;
+      text-shadow: 0 0 5px #00bfff;
+      border-bottom: 2px solid #00bfff;
+      padding-bottom: 5px;
+      animation: glowPulse 2s infinite alternate;
+    }
+
+    .screenshot img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #00bfff;
+      animation: floatImage 4s ease-in-out infinite;
+    }
+
+    @keyframes glowPulse {
+      0% { text-shadow: 0 0 5px #00bfff, 0 0 10px #00bfff; }
+      100% { text-shadow: 0 0 20px #00bfff, 0 0 30px #00bfff; }
+    }
+
+    @keyframes floatImage {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+
+    @keyframes neonGlow {
+      from { box-shadow: 0 0 10px #00bfff; }
+      to { box-shadow: 0 0 25px #00bfff, 0 0 50px #00bfff; }
+    }
+
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .download-link {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #00bfff;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      box-shadow: 0 0 10px #00bfff;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .download-link:hover {
+      background-color: #0099cc;
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #00bfff;
+    }
+  </style>
+</head>
+<body>
+  <header>Midterm Lab Task 3 - Data Science Salary & Job Trends Dashboard</header>
+
+  <section>
+    <p>This portfolio is about creating an interactive Data Science Salary & Job Trends Dashboard using Excel. It analyzes job distribution, salary trends by role and company size, and sector-wise employment patterns through pivot tables, charts, slicers, and an optional map for visualization.</p>
+
+    <p>Download the Excel file: 
+      <a class="download-link" href="https://github.com/user-attachments/files/19303198/Midterm.Lab.Task.3.Carl.xlsx" download>Download Excel File</a>
+    </p>
+  </section>
+
+  <section>
+    <h2>Step by Step Process</h2>
+    <p><strong>1. Use the given data</strong></p>
+    <ul>
+      <li>Open the Worksheet on Uncleaned DS Jobs and the Transform Tables:
+        <ul>
+          <li>Sal By Role</li>
+          <li>Sal By State</li>
+          <li>Sal By Size</li>
+        </ul>
+      </li>
+    </ul>
+
+    <p><strong>2. Design the dashboard to highlight the following:</strong></p>
+    <ul>
+      <li>State with the most Data Science jobs</li>
+      <li>Job role with the highest average salary</li>
+      <li>Company size that pays the highest salary</li>
+      <li>Sector with the lowest & highest number of Data Science jobs</li>
+      <li>Sector with the minimum & maximum average salary</li>
+    </ul>
+
+    <p><strong>3. Create a pivot table</strong></p>
+    <ul>
+      <li>Use pivot tables to summarize data for sector jobs and salary (d & e)</li>
+    </ul>
+
+    <p><strong>4. Generate charts for reports</strong></p>
+    <ul>
+      <li>Use bar, column, or pie charts to visualize salary trends and job distribution</li>
+    </ul>
+
+    <p><strong>5. Insert slicers for filtering</strong></p>
+    <ul>
+      <li>Add slicers for role type, company size, and state to make the dashboard interactive</li>
+    </ul>
+
+    <p><strong>6. Add a map (optional)</strong></p>
+    <ul>
+      <li>If available in your Excel version, insert a map visualization to show job distribution by state</li>
+    </ul>
+
+    <p><strong>7. Apply design & formatting</strong></p>
+    <ul>
+      <li>Customize the colors, fonts, and layout to make the dashboard visually appealing</li>
+    </ul>
+
+    <p><strong>8. Complete the dashboard</strong></p>
+    <ul>
+      <li>Ensure all required visuals and reports are included</li>
+      <li>The slicers should be functional and interactive</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Screenshots During Analysis</h2>
+    <p><strong>Sal by Role Type</strong></p>
+    <div class="screenshot">
+      <img src="https://github.com/user-attachments/assets/02d36474-997e-4a81-aae3-857bea1fcf9e" alt="Sal by Role Type">
+    </div>
+
+    <p><strong>Sal by Size</strong></p>
+    <div class="screenshot">
+      <img src="https://github.com/user-attachments/assets/d06f90c2-8657-43dd-a04d-39a07da83caf" alt="Sal by Size">
+    </div>
+
+    <p><strong>Sal by State</strong></p>
+    <div class="screenshot">
+      <img src="https://github.com/user-attachments/assets/b1e88892-8b68-4814-8371-345195204888" alt="Sal by State">
+    </div>
+
+    <p><strong>Sector by Size</strong></p>
+    <div class="screenshot">
+      <img src="https://github.com/user-attachments/assets/6f4ddd1b-a8b1-4347-ab1e-9354da8ddc4e" alt="Sector by Size">
+    </div>
+
+    <p><strong>Sal by Sector</strong></p>
+    <div class="screenshot">
+      <img src="https://github.com/user-attachments/assets/f77383e5-e27d-453b-88cb-28cc49eda8cf" alt="Sal by Sector">
+    </div>
+
+    <h2>Dashboard</h2>
+    <div class="screenshot">
+      <img src="https://github.com/user-attachments/assets/16fe2a8e-4e0d-4810-9ac7-87d8864afa06" alt="Dashboard">
+    </div>
+
+    <div class="screenshot">
+      <img src="https://github.com/user-attachments/assets/055f1431-09b8-4cf5-938d-8f16d87af8c7" alt="Dashboard">
+    </div>
+
+    <h2>Search Bar</h2>
+    <div class="screenshot">
+      <img src="https://github.com/user-attachments/assets/5f4ebd16-ebfd-49d2-a342-e67ccd406e06" alt="Search Bar">
+    </div>
+
+    <div class="screenshot">
+      <img src="https://github.com/user-attachments/assets/c8e6d12a-4c2c-48d3-ae41-ad6ee3dcb4cf" alt="Search Bar">
+    </div>
+
+    <div class="screenshot">
+      <img src="https://github.com/user-attachments/assets/b75eff63-63a7-4cc7-b3a1-5ab2132c2801" alt="Search Bar">
+    </div>
+
+    <h2>Map</h2>
+    <div class="screenshot">
+      <img src="https://github.com/user-attachments/assets/a5dec839-b68a-4e7b-b4c2-3a2ce1a5de88" alt="Map">
+    </div>
+  </section>
+</body>
+</html>
