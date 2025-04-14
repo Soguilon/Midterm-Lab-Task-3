@@ -178,7 +178,26 @@
             box-shadow: 0 0 20px rgba(135, 206, 250, 0.7);
             text-shadow: 0 0 25px rgba(135, 206, 250, 1), 0 0 50px rgba(135, 206, 250, 0.7);
         }
-
+}
+        .box img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #00ccff;
+    object-fit: contain; /* or 'cover' if you prefer cropping */
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* or use 'contain' to avoid cropping */
+    display: block;
+}
+ 
         /* Footer styling */
         footer {
             background-color: rgba(0, 0, 0, 0.8);
@@ -321,9 +340,10 @@
     <div class="box">
       <img src="https://github.com/user-attachments/assets/a5dec839-b68a-4e7b-b4c2-3a2ce1a5de88" alt="Map">
     </div>
-</section>
+
 
 <!-- Footer -->
+
 <footer>
     <p>© 2025 Carl Asnef B. Soguilon. All rights reserved.</p>
    <a href="https://github.com/Soguilon/Midterm-Lab-Task-3" target="_blank" style="color:var(--neon); text-shadow: 0 0 6px var(--neon);">View Midterm Lab Task 3 on Github</a>
@@ -411,7 +431,7 @@
         border-radius: 18px;
         box-shadow: 0 0 15px rgba(0, 191, 255, 0.2);
         margin: 20px auto;
-        max-width: 800px auto;
+        max-width: 900px;
         animation: fadeIn 1.2s ease-in;
     }
 
